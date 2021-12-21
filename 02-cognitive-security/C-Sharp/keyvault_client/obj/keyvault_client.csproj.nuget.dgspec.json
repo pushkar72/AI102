@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Pushkar11\\Downloads\\Dotnet\\AI\\AI-102-AIEngineer\\02-cognitive-security\\C-Sharp\\keyvault_client\\keyvault_client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Pushkar11\\Downloads\\Dotnet\\AI\\AI-102-AIEngineer\\02-cognitive-security\\C-Sharp\\keyvault_client\\keyvault_client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pushkar11\\Downloads\\Dotnet\\AI\\AI-102-AIEngineer\\02-cognitive-security\\C-Sharp\\keyvault_client\\keyvault_client.csproj",
+        "projectName": "keyvault_client",
+        "projectPath": "C:\\Users\\Pushkar11\\Downloads\\Dotnet\\AI\\AI-102-AIEngineer\\02-cognitive-security\\C-Sharp\\keyvault_client\\keyvault_client.csproj",
+        "packagesPath": "C:\\Users\\Pushkar11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pushkar11\\Downloads\\Dotnet\\AI\\AI-102-AIEngineer\\02-cognitive-security\\C-Sharp\\keyvault_client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Pushkar11\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.AI.TextAnalytics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
